@@ -1,41 +1,41 @@
 [{
         "id": 1,
         "name": "Carnaval",
-        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417111/frevarte/category/hvjtaeakbw7pudqlmo5p.png"
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696682139/frevarte/category/carnaval_lddh0u.png"
     },
     {
         "id": 2,
         "name": "Belt-bag",
-        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417110/frevarte/category/giluynr6cwtvhwvwrbxs.png"
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696682143/frevarte/category/pochete_sba9sl.png"
     },
     {
         "id": 3,
         "name": "Roupa",
-        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417112/frevarte/category/m87n8rrsk2xqhkwxsjz4.png"
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696682137/frevarte/category/blusa_i1wamj.png"
     },
     {
         "id": 4,
         "name": "Boneca",
-        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417112/frevarte/category/eq5xtuuiwpdwdgseup82.png"
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696682137/frevarte/category/Boneca_gpxfr3.png"
     },
     {
         "id": 5,
         "name": "Cozinha",
-        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417111/frevarte/category/yrpaagjkq03lxph6bbuk.png"
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696682142/frevarte/category/panos-de-prato_n1gbvb.png"
     },
     {
         "id": 6,
         "name": "Necessaire",
-        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417110/frevarte/category/jt59qb49eg04ahfxzvkk.png"
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696682141/frevarte/category/necessaire_mm4fyx.png"
     },
     {
         "id": 7,
         "name": "Religião",
-        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417110/frevarte/category/m2ewdkltafclrqutcbqk.png"
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696682139/frevarte/category/Divino_orzxkz.png"
     },
     {
         "id": 8,
         "name": "Natal",
-        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417111/frevarte/category/hcapzscojmmgvlrr2rpe.png"
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696682141/frevarte/category/Guirlandas_vk3ach.png"
     }
 ]
