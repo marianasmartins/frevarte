@@ -1,0 +1,33 @@
+.banner {
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    var(--color-logo)
+  );
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.banner-img {
+  width: 65%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 30%;
+  right: 2%;
+  color: var(--color-white);
+  font-weight: bold;
+  font-family: var(--font-banner);
+  letter-spacing: 2px;
+}
+
+.banner-title {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.banner-subtitle {
+  font-size: 20px;
+}

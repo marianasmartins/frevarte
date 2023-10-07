@@ -1,0 +1,65 @@
+.bestSellers {
+  background-color: var(--color-white);
+  padding: 16px 0 40px;
+}
+.bestSellers-title {
+  font-size: 56px;
+  font-weight: 500;
+  font-family: var(--font-title);
+  color: var(--color-logo);
+  padding-bottom: 24px;
+}
+
+.bestSellers-products {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.bestSellers-products__card {
+  width: 350px;
+  border-radius: 8px;
+  border-top: 0;
+  margin: 0 0;
+}
+
+.bestSellers-products__card img {
+  width: 348px;
+  height: 422px;
+}
+
+.card-title,
+.car-text,
+.price {
+  font-family: var(--font-banner);
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.price-more {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-link {
+  text-decoration: none;
+  color: white;
+  border: 8px solid var(--color-logo);
+  background-color: var(--color-logo);
+  text-align: center;
+  padding: 0 16px;
+  margin: 0;
+}
+
+.card-link-best {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,31 @@
+.abouts {
+  background-color: var(--color-white);
+  padding: 24px 0 56px 0;
+}
+.abouts-title {
+  font-size: 56px;
+  font-weight: 500;
+  font-family: var(--font-title);
+  color: var(--color-orange);
+  margin-bottom: 24px;
+}
+
+.abouts-description {
+  width: 80%;
+  margin: 0 auto;
+  padding: 16px;
+  border: 4px dashed var(--color-gray);
+  border-radius: 8px;
+}
+
+.abouts-description__text {
+  border: 8px dotted white;
+  font-family: var(--font-banner);
+  font-size: 16px;
+  text-align: justify;
+  padding: 24px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  margin: 0;
+  width: 100%;
+}

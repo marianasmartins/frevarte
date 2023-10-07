@@ -1,0 +1,98 @@
+.header {
+  background-color: var(--color-white);
+  justify-content: space-around;
+}
+
+.header-logo {
+  height: 42px;
+}
+
+.list-margin {
+  margin: 0 auto;
+}
+
+.nav-item {
+  padding: 0 8px;
+}
+
+.nav-link {
+  font-family: var(--font-banner);
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: var(--color-logo);
+}
+
+.navbar-nav {
+  border: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.form-control {
+  width: 11em;
+}
+
+.btn-outline-success {
+  color: var(--color-logo);
+  border-color: var(--color-logo);
+}
+
+.button-header {
+  font-family: var(--font-banner);
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: px) {
+  .navbar {
+    padding: 0;
+    width: 100%;
+  }
+
+  .container-menu,
+  .menu-line {
+    display: block;
+  }
+
+  .container-menu__hamburguer {
+    position: relative;
+  }
+
+  .lista-menu__hamburguer {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    z-index: 2;
+  }
+
+  .link-menu,
+  .menu-line {
+    padding-bottom: 8px;
+  }
+
+  .close-menu {
+    display: none;
+  }
+
+  .container__button {
+    display: none;
+  }
+
+  .container__button:checked ~ .lista-menu__hamburguer {
+    display: block;
+    background-color: #343a40;
+  }
+
+  .container__button:checked ~ .close-menu {
+    display: flex;
+  }
+
+  .navbar-mobile_logoMenu {
+    background-color: black;
+  }
+}

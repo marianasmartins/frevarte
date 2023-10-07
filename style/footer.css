@@ -1,0 +1,13 @@
+.footer {
+  background-color: black;
+  background-color: black;
+  color: var(--color-white);
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.text-footer {
+  margin: 0 2px;
+  font-size: 13px;
+}

@@ -1,0 +1,41 @@
+[{
+        "id": 1,
+        "name": "Carnaval",
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417111/frevarte/category/hvjtaeakbw7pudqlmo5p.png"
+    },
+    {
+        "id": 2,
+        "name": "Belt-bag",
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417110/frevarte/category/giluynr6cwtvhwvwrbxs.png"
+    },
+    {
+        "id": 3,
+        "name": "Roupa",
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417112/frevarte/category/m87n8rrsk2xqhkwxsjz4.png"
+    },
+    {
+        "id": 4,
+        "name": "Boneca",
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417112/frevarte/category/eq5xtuuiwpdwdgseup82.png"
+    },
+    {
+        "id": 5,
+        "name": "Cozinha",
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417111/frevarte/category/yrpaagjkq03lxph6bbuk.png"
+    },
+    {
+        "id": 6,
+        "name": "Necessaire",
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417110/frevarte/category/jt59qb49eg04ahfxzvkk.png"
+    },
+    {
+        "id": 7,
+        "name": "Religião",
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417110/frevarte/category/m2ewdkltafclrqutcbqk.png"
+    },
+    {
+        "id": 8,
+        "name": "Natal",
+        "cover": "https://res.cloudinary.com/dnf8oncde/image/upload/v1696417111/frevarte/category/hcapzscojmmgvlrr2rpe.png"
+    }
+]

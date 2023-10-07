@@ -1,0 +1,6 @@
+.contact-whatsapp {
+  position: fixed;
+  right: 40px;
+  bottom: 64px;
+  z-index: 2;
+}
