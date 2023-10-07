@@ -49,6 +49,14 @@
   justify-content: space-around;
 }
 
+.card-title {
+  letter-spacing: 1px;
+}
+
+.card-text {
+  letter-spacing: 0.5px;
+}
+
 .card-link {
   text-decoration: none;
   color: white;

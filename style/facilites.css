@@ -9,7 +9,7 @@
   font-family: var(--font-banner);
   letter-spacing: 4px;
   text-align: center;
-  padding: 16px 0;
+  padding: 16px 0 32px 0;
 }
 
 .facilities-list {
@@ -27,14 +27,7 @@
   gap: 1.5em;
 }
 
-.facilidades-titulo {
-  color: #daff01;
-  font-weight: 700;
-}
-
-.facilidades-texto {
-  color: white;
-  font-size: 13px;
-  margin-bottom: 0;
-  line-height: 20px;
+.facilities-title,
+.facilities-text {
+  color: #dedede;
 }
