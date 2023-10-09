@@ -31,3 +31,7 @@
 .banner-subtitle {
   font-size: 20px;
 }
+
+.banner-mobile {
+  display: none;
+}

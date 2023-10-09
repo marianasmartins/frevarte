@@ -43,3 +43,12 @@
   letter-spacing: 2px;
   font-size: 16px;
 }
+
+.container-menu,
+.list-menu__hamburguer {
+  display: none;
+}
+
+.close-menu {
+  display: none;
+}

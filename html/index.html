@@ -35,11 +35,11 @@
 <body>
     <header class="header" id="header-home">
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid ">
+            <div class="container-fluid container-mobille">
                 <a class="navbar-brand" href="index.html"><img class="header-logo"
                         src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696682368/frevarte/logo/Logo_xnc7el.png"
                         alt="Clique na Logo para ir a Home. Logo da FREVARTE representado por uma sombrinha de frevo e o nome da marca."></a>
-
+                <!-- home desktop -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav list-margin">
                         <li class="nav-item">
@@ -60,18 +60,67 @@
                     </ul>
                 </div>
 
-                <form class="d-flex justify-content-center" role="search">
-                    <input class="form-control me-2 button-header" type="search" placeholder="Digite o produto"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success button-header" type="submit">Buscar</button>
-                </form>
+                <!-- home mobile -->
+                <div class="container-menu">
+                    <input type="checkbox" id="menu" class="container__button">
+                    <label for="menu">
+                        <span class="container-menu__hamburguer">
+                            <img class="open-menu" src="./assets/vector/menu.png" alt="Abrir Menu">
+                            <button type="button" class="btn-close" aria-label="Close"></button>
+                        </span>
+                    </label>
+                    <ul class="lista-menu__hamburguer">
+                        <label for="menu" class="link-menu">
+                            <span>
+                                <img class="open-menu" src="./assets/vector/menu.png" alt="Abrir Menu">
+                                <button type="button" class="btn-close" aria-label="Close"></button>
+                            </span>
+                        </label>
+                        <li class="nav-item lista-menu__item line">
+                            <a class="nav-link color-home link-light link-menu" href="index.html">Início</a>
+                        </li>
+
+                        <li class="nav-item lista-menu__item line">
+                            <a class="nav-link link-light link-menu" href="#categories">Categoria</a>
+                        </li>
+
+                        <li class="nav-item lista-menu__item line">
+                            <a class="nav-link link-light link-menu" aria-current="page" href="#bestSeller">Mais
+                                vendidos</a>
+                        </li>
+
+                        <li class="nav-item lista-menu__item line">
+                            <a class="nav-link link-light link-menu" aria-current="page"
+                                href="#promotions">Promoções</a>
+                        </li>
+
+                        <li class="nav-item lista-menu__item">
+                            <a class="nav-link link-light link-menu" aria-current="page"
+                                href="https://wa.me/5581996949164">Contato</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
+            <form class="d-flex justify-content-center search-mobile" role="search">
+                <input class="form-control me-2 button-header" type="search" placeholder="Digite o produto"
+                    aria-label="Search">
+                <button class="btn btn-outline-success button-header" type="submit">Buscar</button>
+            </form>
+
         </nav>
     </header>
     <div class="banner">
         <img class="banner-img"
             src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696681884/frevarte/banner/banner2_dslrrc.png"
             alt="Imagem do caboclo de lança">
+        <div class="banner-text text-sm-end">
+            <h1 class="banner-title">Loja atemporal</h1>
+            <h2 class="banner-subtitle">Produtos para todos momentos</h2>
+        </div>
+    </div>
+    <div class="banner-mobile">
+        <img class="banner-mobile__img" src="./assets/banner/banner-mobile.png" alt="Imagem do caboclo de lança">
         <div class="banner-text text-sm-end">
             <h1 class="banner-title">Loja atemporal</h1>
             <h2 class="banner-subtitle">Produtos para todos momentos</h2>
@@ -246,7 +295,7 @@
             <h2 class="text-center m-xl-5 promotion-title">Promoções</h2>
             <div class="promotion-products">
                 <div class="card promotion-products__card">
-                    <img src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696595583/frevarte/best-sellers/fnucmdkf6byev9m1szaw.png"
+                    <img src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696681942/frevarte/best-sellers/fridda12_b5nyjr.png"
                         class="card-img-top card-img__promotion" alt="Imagem de uma sereia">
                     <div class="card-body">
                         <h5 class="card-title">Bonecas</h5>
@@ -278,7 +327,7 @@
                 </div>
 
                 <div class="card promotion-products__card">
-                    <img src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696595583/frevarte/best-sellers/fnucmdkf6byev9m1szaw.png"
+                    <img src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696681942/frevarte/best-sellers/fridda12_b5nyjr.png"
                         class="card-img-top card-img__promotion" alt="Imagem de uma sereia">
                     <div class="card-body">
                         <h5 class="card-title">Bonecas</h5>
@@ -322,7 +371,8 @@
             <h2>Conheça todas as nossas facilidades</h2>
             <div class="facilities-list">
                 <div class="facilities-list_item">
-                    <img src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696682440/frevarte/vector/icons8-pix-50_ynzqdd.png"
+                    <img class="list__item-img"
+                        src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696682440/frevarte/vector/icons8-pix-50_ynzqdd.png"
                         alt="Pague pelo pix">
                     <div>
                         <h6 class="facilities-title">PAGUE PELO PIX</h6>
@@ -331,7 +381,8 @@
                 </div>
 
                 <div class="facilities-list_item">
-                    <img src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696682439/frevarte/vector/icons8-desconto-50_j12hhz.png"
+                    <img class="list__item-img"
+                        src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696682439/frevarte/vector/icons8-desconto-50_j12hhz.png"
                         alt="Compre mais com desconto">
                     <div>
                         <h6 class="facilities-title">COMPRE 5 PEÇAS DO MESMO MODELO</h6>
@@ -340,9 +391,10 @@
                 </div>
 
                 <div class="facilities-list_item">
-                    <img src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696682441/frevarte/vector/icons8-sinal-de-reciclagem-50_ymo45i.png"
+                    <img class="list__item-img"
+                        src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696682441/frevarte/vector/icons8-sinal-de-reciclagem-50_ymo45i.png"
                         alt="SUSTENTABILIDADE">
-                    <div>
+                    <div class="sustent-mobile">
                         <h6 class="facilities-title">SUSTENTABILIDADE</h6>
                         <p class="facilities-text">Moda responsável, que respeita o meio ambiente.</p>
                     </div>
