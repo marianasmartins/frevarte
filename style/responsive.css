@@ -1,29 +1,68 @@
 @media screen and (max-width: 1000px) {
   .header {
-    padding-bottom: 16px;
+    display: none;
+  }
+
+  .header-mobile {
+    display: block;
+    background-color: var(--color-white);
+  }
+
+  .container-mobile {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
   }
 
   .container-menu {
-    display: flex;
+    position: absolute;
+    background-color: var(--color-gray);
+    padding: 16px 10px 10px;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    transition: all 300ms ease-in-out;
+  }
+
+  .container-menu.soft-block {
+    opacity: 1;
+  }
+
+  .container-menu.soft-block .menu-hamburguer__close,
+  .container-menu.d-none .menu-hamburguer__open {
+    animation: menuRotate 200ms ease-in-out reverse;
+  }
+
+  @keyframes menuRotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+
+  .container-menu .menu-hamburguer__close {
+    position: relative;
+    float: right;
+  }
+
+  .container-menu ul {
+    clear: right;
+    list-style-type: none;
   }
 
   .container-menu__hamburguer {
     position: relative;
   }
 
-  .btn-close {
-    display: none;
-  }
-
-  .lista-menu__hamburguer {
+  .menu-hamburguer {
     display: none;
     position: absolute;
     top: 0;
     right: 0;
     list-style: none;
-    padding: 10px;
-    margin: 0;
-    z-index: 2;
   }
 
   .link-menu {
@@ -34,14 +73,11 @@
     border-bottom: 1px solid var(--color-white);
   }
 
-  .container__button {
-    display: none;
+  .search-mobile {
+    padding-bottom: 16px;
   }
 
-  .container__button:checked ~ .lista-menu__hamburguer {
-    display: block;
-    background-color: var(--color-gray);
-  }
+  /* 
 
   .container__button:checked ~ .btn-close {
     display: block;
@@ -59,7 +95,8 @@
   .search-mobile {
     justify-content: center;
     margin: 0 auto;
-  }
+    padding-bottom: 24px;
+  } */
 
   /* contact */
   .contact-whatsapp {
@@ -68,7 +105,8 @@
   }
 
   /* banner */
-  .banner {
+  .banner,
+  .banner-text {
     display: none;
   }
 
@@ -86,11 +124,13 @@
     width: 100%;
   }
 
-  .banner-text {
-    top: 42%;
+  .banner-text-mobile {
+    display: block;
+
     margin: 0 auto;
+    position: relative;
     text-align: center;
-    left: 0;
+    justify-content: center;
   }
 
   /* categories*/

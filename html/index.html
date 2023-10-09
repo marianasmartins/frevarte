@@ -29,13 +29,13 @@
     <link rel="stylesheet" href="/style/news.css">
     <link rel="stylesheet" href="/style/footer.css">
     <link rel="stylesheet" href="/style/responsive.css">
-
 </head>
 
 <body>
+
     <header class="header" id="header-home">
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid container-mobille">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img class="header-logo"
                         src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696682368/frevarte/logo/Logo_xnc7el.png"
                         alt="Clique na Logo para ir a Home. Logo da FREVARTE representado por uma sombrinha de frevo e o nome da marca."></a>
@@ -59,16 +59,78 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+            <form class="d-flex justify-content-center search-mobile" role="search">
+                <input class="form-control me-2 button-header" type="search" placeholder="Digite o produto"
+                    aria-label="Search">
+                <button class="btn btn-outline-success button-header" type="submit">Buscar</button>
+            </form>
 
-                <!-- home mobile -->
-                <div class="container-menu">
+        </nav>
+    </header>
+
+    <!-- home mobile -->
+    <header class="header-mobile">
+        <div class="container-mobile">
+            <a class="navbar-brand" href="index.html">
+                <img class="header-logo"
+                    src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696682368/frevarte/logo/Logo_xnc7el.png"
+                    alt="Clique na Logo para ir a Home. Logo da FREVARTE representado por uma sombrinha de frevo e o nome da marca.">
+            </a>
+
+            <!-- <input type="checkbox" id="image-menu" alt="Menu"> -->
+
+            <img class="menu-hamburguer__open"
+                src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696876041/frevarte/vector/menu_ttfumo.png"
+                alt="" for="image-menu">
+        </div>
+        <div class="container-menu" style="display:block;">
+
+            <img class="menu-hamburguer__close"
+                src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696876040/frevarte/vector/fechar_q6ngdd.svg"
+                alt="" for="image-close">
+            <div>
+                <ul class="list-menu__hamburguer">
+
+                    <li class="nav-item lista-menu__item line">
+                        <a class="nav-link color-home link-light link-menu" href="index.html">Início</a>
+                    </li>
+
+                    <li class="nav-item lista-menu__item line">
+                        <a class="nav-link link-light link-menu" href="#categories">Categoria</a>
+                    </li>
+
+                    <li class="nav-item lista-menu__item line">
+                        <a class="nav-link link-light link-menu" aria-current="page" href="#bestSeller">Mais
+                            vendidos</a>
+                    </li>
+
+                    <li class="nav-item lista-menu__item line">
+                        <a class="nav-link link-light link-menu" aria-current="page" href="#promotions">Promoções</a>
+                    </li>
+
+                    <li class="nav-item lista-menu__item">
+                        <a class="nav-link link-light link-menu" aria-current="page"
+                            href="https://wa.me/5581996949164">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <form class="d-flex justify-content-center search-mobile" role="search">
+            <input class="form-control me-2 button-header" type="search" placeholder="Digite o produto"
+                aria-label="Search">
+            <button class="btn btn-outline-success button-header" type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <!-- <div class="container-menu">
                     <input type="checkbox" id="menu" class="container__button">
                     <label for="menu">
                         <span class="container-menu__hamburguer">
                             <img class="open-menu"
                                 src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696876041/frevarte/vector/menu_ttfumo.png"
                                 alt="Abrir Menu">
-                            <button type="button" class="btn-close" aria-label="Open"></button>
+                            <button type="button" class="btn-close" aria-label="Close"></button>
                         </span>
                     </label>
                     <ul class="lista-menu__hamburguer">
@@ -103,16 +165,10 @@
                                 href="https://wa.me/5581996949164">Contato</a>
                         </li>
                     </ul>
-                </div>
-            </div>
+                </div> -->
+    </div>
 
-            <form class="d-flex justify-content-center search-mobile" role="search">
-                <input class="form-control me-2 button-header" type="search" placeholder="Digite o produto"
-                    aria-label="Search">
-                <button class="btn btn-outline-success button-header" type="submit">Buscar</button>
-            </form>
 
-        </nav>
     </header>
     <div class="banner">
         <img class="banner-img"
@@ -127,7 +183,7 @@
         <img class="banner-mobile__img"
             src="https://res.cloudinary.com/dnf8oncde/image/upload/v1696875957/frevarte/banner/banner-mobile_xtezc4.png"
             alt="Imagem do caboclo de lança">
-        <div class="banner-text text-sm-end">
+        <div class="banner-text-mobile text-sm-end">
             <h1 class="banner-title">Loja atemporal</h1>
             <h2 class="banner-subtitle">Produtos para todos momentos</h2>
         </div>
@@ -470,6 +526,22 @@
         //         searchSection.innerHTML = searchSectionContent;
 
         //     });
+    </script>
+    <script defer>
+        const menuOpen = document.querySelector('.menu-hamburguer__open');
+        const menuClose = document.querySelector('.menu-hamburguer__close');
+
+        const menuContainer = document.querySelector('.container-menu');
+
+        menuOpen.addEventListener('click', () => {
+            menuOpen.classList.toggle('d-none');
+            menuContainer.classList.toggle('soft-block');
+        });
+
+        menuClose.addEventListener('click', () => {
+            menuOpen.classList.toggle('d-none');
+            menuContainer.classList.toggle('soft-block');
+        });
     </script>
     <script>
         import {
