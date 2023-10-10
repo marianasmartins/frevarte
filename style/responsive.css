@@ -119,12 +119,7 @@
   }
 
   .banner-text-mobile {
-    background-image: linear-gradient(
-      var(--color-white),
-      var(--color-logo),
-      var(--color-logo),
-      var(--color-logo)
-    );
+    background-color: var(--color-logo);
     color: var(--color-white);
     font-family: var(--font-banner);
     padding: 32px;
