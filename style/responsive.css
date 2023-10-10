@@ -105,32 +105,29 @@
   }
 
   /* banner */
-  .banner,
-  .banner-text {
+  .banner {
     display: none;
   }
 
   .banner-mobile {
-    display: block;
+    display: inline-block;
+    position: relative;
   }
 
   .banner-mobile__img {
-    display: block;
-    height: 100%;
-    width: 100%;
-  }
-
-  .banner-img {
     width: 100%;
   }
 
   .banner-text-mobile {
-    display: block;
-
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-    justify-content: center;
+    background-image: linear-gradient(
+      var(--color-white),
+      var(--color-logo),
+      var(--color-logo),
+      var(--color-logo)
+    );
+    color: var(--color-white);
+    font-family: var(--font-banner);
+    padding: 32px;
   }
 
   /* categories*/
@@ -142,7 +139,7 @@
   .bestSellers-title,
   .promotion-title,
   .abouts-title {
-    font-size: 32px;
+    font-size: 40px;
   }
 
   .category-array {
@@ -163,7 +160,7 @@
   }
 
   .card-text {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   /* bestSellers */
