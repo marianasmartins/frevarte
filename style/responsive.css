@@ -81,6 +81,10 @@
     width: 100%;
   }
 
+  .button-header__mobile {
+    font-family: var(--font-banner);
+  }
+
   /* 
 
   .container__button:checked ~ .btn-close {
