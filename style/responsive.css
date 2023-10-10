@@ -17,7 +17,7 @@
 
   .container-menu {
     position: absolute;
-    background-color: var(--color-gray);
+    background-color: var(--color-logo);
     padding: 16px 10px 10px;
     top: 0;
     right: 0;
