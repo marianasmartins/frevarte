@@ -212,3 +212,9 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 440px) {
+  .news-email {
+    flex-wrap: wrap;
+  }
+}
