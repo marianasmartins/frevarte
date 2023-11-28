@@ -52,9 +52,13 @@
   opacity: 0;
 }
 
-.cart-img {
+.shopping-cart {
+  border: 1px solid red;
   text-align: center;
   padding-right: 8px;
+}
+
+.shopping-cart__img {
 }
 
 .search {
