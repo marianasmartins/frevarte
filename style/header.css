@@ -3,12 +3,20 @@
   justify-content: space-around;
 }
 
+.header-navbar {
+  padding: 16px;
+}
+
 .header-mobile {
   display: none;
 }
 
 .header-logo {
   height: 42px;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .list-margin {
@@ -54,7 +62,6 @@
 
 .shopping-cart {
   text-align: center;
-  padding-right: 8px;
 }
 
 .search {
